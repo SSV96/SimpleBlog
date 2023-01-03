@@ -1,0 +1,135 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+	font-family: serif;
+	color: #444444;
+}
+h1,
+h2,
+h3 {
+	color: hsla(188, 88%, 49%, 0.817);
+}
+h1 {
+	font-size: 26px;
+	text-transform: uppercase;
+	font-style: italic;
+	/* Sets the color of an element's text */
+}
+h2 {
+	font-size: 40px;
+}
+h3 {
+	font-size: 30px;
+}
+h4 {
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+p {
+	font-size: 22px;
+	/* color: red; */
+	/* background-color: black; */
+	line-height: 1.5;
+	/* the line height would be 1.5 times more than the font size */
+}
+li {
+	font-size: 16px;
+}
+/*  desecdent selector */
+/* all the p elements in the foooter */
+/* article header p {
+	font-style: italic;
+} */
+
+/* selectors */
+#author {
+	font-style: italic;
+	font-size: 18px;
+}
+#copyright {
+	font-size: 16px;
+}
+.related-author {
+	font-size: 18px;
+	/* font weight to make text bolder */
+	font-weight: bold;
+}
+/* ul {
+	list-style: none;
+} */
+/* .related {
+	list-style: none;
+} */
+
+/* ul li {
+	list-style: none;
+} */
+/* ul {
+	list-style: none;
+} */
+.main-header {
+	background-color: #f7f7f7;
+}
+aside {
+	background-color: #f7f7f7;
+	border-top: 5px solid #1098ad;
+	border-bottom: 5px solid #1098ad;
+	border-left: 5px dotted #1098ad;
+	/* dotted dashed */
+}
+/* body {
+	/* background-color: blue; */
+/* } */
+/* .first-li {
+	font-weight: bold;
+} */
+/* First child of its parent element */
+li:first-child {
+	font-weight: bold;
+}
+/* Last Child of its parent element */
+li:last-child {
+	font-style: italic;
+}
+/* taget specific child
+odd even or number 
+*/
+/* for tables use */
+li:nth-child(odd) {
+	color: red;
+}
+
+/*  the first child of the article
+misconception this wont work
+*/
+article p:first-child {
+	color: rgb(203, 45, 71);
+}
+
+/* Stying Hyper Links */
+a {
+	color: red;
+}
+
+/* This one only targets "anchor element " that does hava a href attribute*/
+a:link {
+	color: rgb(42, 60, 19);
+	text-decoration: none;
+}
+a:visited {
+	color: lightgreen;
+}
+a:hover {
+	color: rgb(234, 220, 19);
+	font-size: 30px;
+	text-decoration: dotted orangered;
+}
+a:active {
+	background-color: black;
+	font-style: italic;
+}
